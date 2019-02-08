@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingletonImplementation
+namespace SingletonPatternImplementation
 {
     //Credit to http://csharpindepth.com/Articles/General/Singleton.aspx for code example
     public sealed class LazySingleton
