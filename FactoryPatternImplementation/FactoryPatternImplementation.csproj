@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>Design_Patterns_In_CSharp</RootNamespace>
   </PropertyGroup>
 
 </Project>
