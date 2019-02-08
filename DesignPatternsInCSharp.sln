@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryPattern", "FactoryPattern", "{E26B3F35-8AA8-4241-A822-FF5698ACA4AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternImplementation", "FactoryPattern/FactoryPatternImplementation\FactoryPatternImplementation.csproj", "{028D57C3-446F-4E55-835F-553D7B63B664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternImplementation", "FactoryPatternImplementation\FactoryPatternImplementation.csproj", "{028D57C3-446F-4E55-835F-553D7B63B664}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTests", "FactoryPatternTests\FactoryPatternTests.csproj", "{754EC007-7891-4293-9FEF-650A532A0B39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTests", "FactoryPattern/FactoryPatternTests\FactoryPatternTests.csproj", "{754EC007-7891-4293-9FEF-650A532A0B39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
