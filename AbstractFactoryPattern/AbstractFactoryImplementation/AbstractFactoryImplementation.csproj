@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Cars\" />
+    <Folder Include="Motorcycles\" />
+    <Folder Include="Trucks\" />
+  </ItemGroup>
+
 </Project>
