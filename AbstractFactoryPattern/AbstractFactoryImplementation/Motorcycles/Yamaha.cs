@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AbstractFactoryImplementation.Motorcycles
+﻿namespace AbstractFactoryImplementation.Motorcycles
 {
     public class Yamaha : Motorcycle
     {
