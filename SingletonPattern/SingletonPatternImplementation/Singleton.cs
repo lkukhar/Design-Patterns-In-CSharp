@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SingletonPatternImplementation
+﻿namespace SingletonPatternImplementation
 {
     public sealed class Singleton
     {
