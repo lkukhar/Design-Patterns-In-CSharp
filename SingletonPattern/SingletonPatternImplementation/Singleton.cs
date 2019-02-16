@@ -6,5 +6,6 @@
         static Singleton() { }
         private Singleton() { }
 
+        public int Incrementer = 0;
     }
 }

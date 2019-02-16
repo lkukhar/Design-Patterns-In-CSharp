@@ -9,5 +9,7 @@ namespace SingletonPatternImplementation
         private LazySingleton() { }
 
         public static LazySingleton Instance { get { return lazyInitializer.Value; } }
+
+        public int Incrementer = 0;
     }
 }
