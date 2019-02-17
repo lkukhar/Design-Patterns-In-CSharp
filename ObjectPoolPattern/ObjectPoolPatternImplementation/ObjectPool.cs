@@ -8,7 +8,7 @@ namespace ObjectPoolPatternImplementation
     public abstract class ObjectPool<T>
     {
         private TimeSpan _expirationTime;
-        private Dictionary<T, DateTime> _locked, _unlocked;
+        public readonly Dictionary<T, DateTime> _locked, _unlocked;
 
         protected ObjectPool(TimeSpan expirationTime)
         {
@@ -21,7 +21,7 @@ namespace ObjectPoolPatternImplementation
         protected abstract void DestroyObject(T obj);
 
         [MethodImpl(MethodImplOptions.Synchronized)]
-        protected T CheckOutObject()
+        public T CheckOutObject()
         {
             DateTime now = DateTime.Now;
             T obj;
@@ -51,7 +51,7 @@ namespace ObjectPoolPatternImplementation
         }
 
         [MethodImpl(MethodImplOptions.Synchronized)]
-        protected void CheckInObject(T obj)
+        public void CheckInObject(T obj)
         {
             _locked.Remove(obj);
             _unlocked.Add(obj, DateTime.Now);

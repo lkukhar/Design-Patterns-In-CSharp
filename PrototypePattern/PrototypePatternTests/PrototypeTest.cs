@@ -15,10 +15,6 @@ namespace PrototypePatternTests
             Assert.IsType<Lexus>(CarPrototypeFactory.GetPrototype(CarType.Lexus));
             Assert.IsType<Honda>(CarPrototypeFactory.GetPrototype(CarType.Honda));
             Assert.IsType<Toyota>(CarPrototypeFactory.GetPrototype(CarType.Toyota));
-
-            Assert.Equal(new Lexus(), CarPrototypeFactory.GetPrototype(CarType.Lexus));
-            Assert.Equal(new Honda(), CarPrototypeFactory.GetPrototype(CarType.Honda));
-            Assert.Equal(new Toyota(), CarPrototypeFactory.GetPrototype(CarType.Toyota));
         }
     }
 }
