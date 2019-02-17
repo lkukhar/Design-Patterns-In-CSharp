@@ -18,8 +18,7 @@ namespace ObjectPoolPatternImplementation
         }
 
         protected abstract T CreateObject();
-        protected abstract bool IsValidObject(T obj);
-        protected abstract void ExpireObject(T obj);
+        protected abstract void DestroyObject(T obj);
 
         [MethodImpl(MethodImplOptions.Synchronized)]
         protected T CheckOutObject()
@@ -35,23 +34,14 @@ namespace ObjectPoolPatternImplementation
                     if((now - _unlocked[obj]) > _expirationTime)
                     {
                         _unlocked.Remove(obj);
-                        ExpireObject(obj);
+                        DestroyObject(obj);
                         obj = default(T);
                     }
                     else
                     {
-                        if(IsValidObject(obj))
-                        {
-                            _unlocked.Remove(obj);
-                            _locked.Add(obj, DateTime.Now);
-                            return obj;
-                        }
-                        else
-                        {
-                            _unlocked.Remove(obj);
-                            ExpireObject(obj);
-                            obj = default(T);
-                        }
+                        _unlocked.Remove(obj);
+                        _locked.Add(obj, DateTime.Now);
+                        return obj;
                     }
                 }
             }
@@ -66,7 +56,7 @@ namespace ObjectPoolPatternImplementation
             _locked.Remove(obj);
             _unlocked.Add(obj, DateTime.Now);
         }
-
+        
         private T GetAvailableObject()
         {
             Random random = new Random();
