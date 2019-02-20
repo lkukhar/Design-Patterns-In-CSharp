@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPatternTests", "Cr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactoryPattern", "AbstractFactoryPattern", "{59363F87-6B28-4D3F-88D6-31DF3C49E37D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryImplementation", "CreationalPatterns\AbstractFactoryPattern\AbstractFactoryImplementation\AbstractFactoryImplementation.csproj", "{800F329E-8BB7-49BF-9050-23D35A49BF6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPatternImplementation", "CreationalPatterns\AbstractFactoryPattern\AbstractFactoryImplementation\AbstractFactoryPatternImplementation.csproj", "{800F329E-8BB7-49BF-9050-23D35A49BF6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryTests", "CreationalPatterns\AbstractFactoryPattern\AbstractFactoryTests\AbstractFactoryTests.csproj", "{DEED56C5-2DE0-4357-939E-4EDBBB219875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPatternTests", "CreationalPatterns\AbstractFactoryPattern\AbstractFactoryTests\AbstractFactoryPatternTests.csproj", "{DEED56C5-2DE0-4357-939E-4EDBBB219875}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypePattern", "PrototypePattern", "{B3E343A4-4938-4AF4-AAE1-440D56441DF1}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{82D9B853-3E1F-42CA-AECA-61CBA829EB72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{06225D15-AF57-45B8-AA2D-2D5FD9B0A3F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPattern", "BuilderPattern", "{5F556BC3-E0BA-45D8-9AF1-6671FE382C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,7 @@ Global
 		{29DD7246-FA24-4620-B41A-385B9FA8EC72} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 		{D94C45DC-C7FB-420F-AC06-30121DFA9D39} = {29DD7246-FA24-4620-B41A-385B9FA8EC72}
 		{35C73A5D-0590-47F1-9799-229D33B6F519} = {29DD7246-FA24-4620-B41A-385B9FA8EC72}
+		{5F556BC3-E0BA-45D8-9AF1-6671FE382C7E} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF7BAE18-D717-4DA5-A046-F6F2898FE2A8}
