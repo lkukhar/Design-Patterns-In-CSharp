@@ -23,15 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryTests", "Cre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypePattern", "PrototypePattern", "{B3E343A4-4938-4AF4-AAE1-440D56441DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePatternImplementation", "CreationalPatterns\PrototypePattern\PrototypePatternImplementation\PrototypePatternImplementation.csproj", "{2E162C70-4E0A-49A2-8E7D-5A7C01E40161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePatternImplementation", "CreationalPatterns\PrototypePattern\PrototypePatternImplementation\PrototypePatternImplementation.csproj", "{2E162C70-4E0A-49A2-8E7D-5A7C01E40161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePatternTests", "CreationalPatterns\PrototypePattern\PrototypePatternTests\PrototypePatternTests.csproj", "{CF781C2C-DA1E-4A72-AB60-05A61898760C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePatternTests", "CreationalPatterns\PrototypePattern\PrototypePatternTests\PrototypePatternTests.csproj", "{CF781C2C-DA1E-4A72-AB60-05A61898760C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectPoolPattern", "ObjectPoolPattern", "{29DD7246-FA24-4620-B41A-385B9FA8EC72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPoolPatternTests", "CreationalPatterns\ObjectPoolPattern\ObjectPoolPatternTests\ObjectPoolPatternTests.csproj", "{D94C45DC-C7FB-420F-AC06-30121DFA9D39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPoolPatternTests", "CreationalPatterns\ObjectPoolPattern\ObjectPoolPatternTests\ObjectPoolPatternTests.csproj", "{D94C45DC-C7FB-420F-AC06-30121DFA9D39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPoolPatternImplementation", "CreationalPatterns\ObjectPoolPattern\ObjectPoolPatternImplementation\ObjectPoolPatternImplementation.csproj", "{35C73A5D-0590-47F1-9799-229D33B6F519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPoolPatternImplementation", "CreationalPatterns\ObjectPoolPattern\ObjectPoolPatternImplementation\ObjectPoolPatternImplementation.csproj", "{35C73A5D-0590-47F1-9799-229D33B6F519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{D75A6364-6F1D-4A50-9202-F73BA1DCB19C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{82D9B853-3E1F-42CA-AECA-61CBA829EB72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{06225D15-AF57-45B8-AA2D-2D5FD9B0A3F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,12 +92,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{028D57C3-446F-4E55-835F-553D7B63B664} = {38AC6329-D432-4149-9C8A-CC1FE05C1F05}
 		{754EC007-7891-4293-9FEF-650A532A0B39} = {38AC6329-D432-4149-9C8A-CC1FE05C1F05}
+		{38AC6329-D432-4149-9C8A-CC1FE05C1F05} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
+		{27D328B2-300D-4763-84CA-D9D9175D4BB9} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 		{16A3704E-F953-408D-8028-070DF377DEA3} = {27D328B2-300D-4763-84CA-D9D9175D4BB9}
 		{580D601A-A8A4-45C3-93A0-A52A31000AF1} = {27D328B2-300D-4763-84CA-D9D9175D4BB9}
+		{59363F87-6B28-4D3F-88D6-31DF3C49E37D} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 		{800F329E-8BB7-49BF-9050-23D35A49BF6D} = {59363F87-6B28-4D3F-88D6-31DF3C49E37D}
 		{DEED56C5-2DE0-4357-939E-4EDBBB219875} = {59363F87-6B28-4D3F-88D6-31DF3C49E37D}
+		{B3E343A4-4938-4AF4-AAE1-440D56441DF1} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 		{2E162C70-4E0A-49A2-8E7D-5A7C01E40161} = {B3E343A4-4938-4AF4-AAE1-440D56441DF1}
 		{CF781C2C-DA1E-4A72-AB60-05A61898760C} = {B3E343A4-4938-4AF4-AAE1-440D56441DF1}
+		{29DD7246-FA24-4620-B41A-385B9FA8EC72} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 		{D94C45DC-C7FB-420F-AC06-30121DFA9D39} = {29DD7246-FA24-4620-B41A-385B9FA8EC72}
 		{35C73A5D-0590-47F1-9799-229D33B6F519} = {29DD7246-FA24-4620-B41A-385B9FA8EC72}
 	EndGlobalSection
