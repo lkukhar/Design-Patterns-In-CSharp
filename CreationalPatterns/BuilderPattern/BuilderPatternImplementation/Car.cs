@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BuilderPatternImplementation
+﻿namespace BuilderPatternImplementation
 {
     public class Car
     {
@@ -24,5 +20,7 @@ namespace BuilderPatternImplementation
         {
             _rows = rows;
         }
+
+        public string DescribeCar() => @"Doors: " + _doors.ToString() + ", Seats: " + _seats.ToString() + ", Rows: " + _rows.ToString() + ".";
     }
 }

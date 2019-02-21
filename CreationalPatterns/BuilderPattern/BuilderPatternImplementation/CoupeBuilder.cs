@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BuilderPatternImplementation
+﻿namespace BuilderPatternImplementation
 {
     public class CoupeBuilder : CarBuilder
     {
@@ -18,7 +14,7 @@ namespace BuilderPatternImplementation
 
         public override void BuildSeats()
         {
-            car.SetRows(2);
+            car.SetSeats(2);
         }
     }
 }

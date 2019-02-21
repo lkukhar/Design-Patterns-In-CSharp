@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BuilderPatternImplementation
+﻿namespace BuilderPatternImplementation
 {
     public class BuildDirector
     {
@@ -17,6 +13,7 @@ namespace BuilderPatternImplementation
 
         public void ConstructCar()
         {
+            _carBuilder.CreateNewCar();
             _carBuilder.BuildDoors();
             _carBuilder.BuildRows();
             _carBuilder.BuildSeats();
