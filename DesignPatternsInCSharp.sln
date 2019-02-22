@@ -41,9 +41,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "Struc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPattern", "BuilderPattern", "{5F556BC3-E0BA-45D8-9AF1-6671FE382C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternImplementation", "CreationalPatterns\BuilderPattern\BuilderPatternImplementation\BuilderPatternImplementation.csproj", "{4424B74C-1C26-481E-96AF-4C7D8758D0E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPatternImplementation", "CreationalPatterns\BuilderPattern\BuilderPatternImplementation\BuilderPatternImplementation.csproj", "{4424B74C-1C26-481E-96AF-4C7D8758D0E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternTests", "CreationalPatterns\BuilderPattern\BuilderPatternTests\BuilderPatternTests.csproj", "{8DF708E9-DCBD-4086-B040-08C5792F788C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPatternTests", "CreationalPatterns\BuilderPattern\BuilderPatternTests\BuilderPatternTests.csproj", "{8DF708E9-DCBD-4086-B040-08C5792F788C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrivateClassDataPattern", "PrivateClassDataPattern", "{DA38B32F-059D-445B-A755-80D27AF1083E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateClassDataPatternImplementation", "StructuralPatterns\PrivateClassDataPattern\PrivateClassDataPatternImplementation\PrivateClassDataPatternImplementation.csproj", "{47072E50-AA75-401D-AAEF-FB6330E63D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateClassDataPatternTests", "StructuralPatterns\PrivateClassDataPattern\PrivateClassDataPatternTests\PrivateClassDataPatternTests.csproj", "{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,14 @@ Global
 		{8DF708E9-DCBD-4086-B040-08C5792F788C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF708E9-DCBD-4086-B040-08C5792F788C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF708E9-DCBD-4086-B040-08C5792F788C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47072E50-AA75-401D-AAEF-FB6330E63D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47072E50-AA75-401D-AAEF-FB6330E63D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47072E50-AA75-401D-AAEF-FB6330E63D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47072E50-AA75-401D-AAEF-FB6330E63D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +136,9 @@ Global
 		{5F556BC3-E0BA-45D8-9AF1-6671FE382C7E} = {D75A6364-6F1D-4A50-9202-F73BA1DCB19C}
 		{4424B74C-1C26-481E-96AF-4C7D8758D0E1} = {5F556BC3-E0BA-45D8-9AF1-6671FE382C7E}
 		{8DF708E9-DCBD-4086-B040-08C5792F788C} = {5F556BC3-E0BA-45D8-9AF1-6671FE382C7E}
+		{DA38B32F-059D-445B-A755-80D27AF1083E} = {06225D15-AF57-45B8-AA2D-2D5FD9B0A3F5}
+		{47072E50-AA75-401D-AAEF-FB6330E63D5D} = {DA38B32F-059D-445B-A755-80D27AF1083E}
+		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1} = {DA38B32F-059D-445B-A755-80D27AF1083E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF7BAE18-D717-4DA5-A046-F6F2898FE2A8}
