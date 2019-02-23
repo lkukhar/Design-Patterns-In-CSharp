@@ -49,7 +49,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrivateClassDataPattern", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateClassDataPatternImplementation", "StructuralPatterns\PrivateClassDataPattern\PrivateClassDataPatternImplementation\PrivateClassDataPatternImplementation.csproj", "{47072E50-AA75-401D-AAEF-FB6330E63D5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateClassDataPatternTests", "StructuralPatterns\PrivateClassDataPattern\PrivateClassDataPatternTests\PrivateClassDataPatternTests.csproj", "{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateClassDataPatternTests", "StructuralPatterns\PrivateClassDataPattern\PrivateClassDataPatternTests\PrivateClassDataPatternTests.csproj", "{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProxyPattern", "ProxyPattern", "{C2A5B88A-B426-4CDC-95EA-FED61AA996B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternImplementation", "StructuralPatterns\ProxyPattern\ProxyPatternImplementation\ProxyPatternImplementation.csproj", "{480C9AA2-276B-4413-A33F-009C258364A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternTests", "StructuralPatterns\ProxyPattern\ProxyPatternTests\ProxyPatternTests.csproj", "{E78EC326-5FF7-479D-853F-E80EFFE3691C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +119,14 @@ Global
 		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480C9AA2-276B-4413-A33F-009C258364A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480C9AA2-276B-4413-A33F-009C258364A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480C9AA2-276B-4413-A33F-009C258364A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480C9AA2-276B-4413-A33F-009C258364A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78EC326-5FF7-479D-853F-E80EFFE3691C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78EC326-5FF7-479D-853F-E80EFFE3691C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78EC326-5FF7-479D-853F-E80EFFE3691C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78EC326-5FF7-479D-853F-E80EFFE3691C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +153,9 @@ Global
 		{DA38B32F-059D-445B-A755-80D27AF1083E} = {06225D15-AF57-45B8-AA2D-2D5FD9B0A3F5}
 		{47072E50-AA75-401D-AAEF-FB6330E63D5D} = {DA38B32F-059D-445B-A755-80D27AF1083E}
 		{3C4C7F21-0E59-4D1A-87E2-D3EED0F0CCD1} = {DA38B32F-059D-445B-A755-80D27AF1083E}
+		{C2A5B88A-B426-4CDC-95EA-FED61AA996B4} = {06225D15-AF57-45B8-AA2D-2D5FD9B0A3F5}
+		{480C9AA2-276B-4413-A33F-009C258364A9} = {C2A5B88A-B426-4CDC-95EA-FED61AA996B4}
+		{E78EC326-5FF7-479D-853F-E80EFFE3691C} = {C2A5B88A-B426-4CDC-95EA-FED61AA996B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF7BAE18-D717-4DA5-A046-F6F2898FE2A8}
