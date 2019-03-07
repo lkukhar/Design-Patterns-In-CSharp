@@ -67,7 +67,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadePattern", "FacadePatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePatternImplementation", "StructuralPatterns\FacadePattern\FacadePatternImplementation\FacadePatternImplementation.csproj", "{11205458-5267-4640-8DC2-27918EBDDF49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePatternTests", "StructualPatterns\FacadePattern\FacadePatternTests\FacadePatternTests.csproj", "{2FE2AAB4-678E-4E05-A3E4-A321AB738B61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePatternTests", "StructuralPatterns\FacadePattern\FacadePatternTests\FacadePatternTests.csproj", "{2FE2AAB4-678E-4E05-A3E4-A321AB738B61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
